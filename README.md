@@ -9,7 +9,7 @@
 
 ## Prerequisites
 
-- ESP01,ESP12 or other ESP8266 controller ([ESP01/01S](https://github.com/esp8266/esp8266-wiki/wiki/Hardware_versions)) with GPIO16 connected to RST. Make sure you have the ESP8266 board add-on installed.
+- ESP01, ESP12 or other ESP8266 controller ([ESP01/01S](https://github.com/esp8266/esp8266-wiki/wiki/Hardware_versions)) with GPIO16 connected to RST. Make sure you have the ESP8266 board add-on installed.
 - Temperature Sensor [DS18B20 (Dallas)](https://pdf1.alldatasheet.com/datasheet-pdf/view/227472/DALLAS/DS18B20.html).
 - ~3.3V power supply.
 - Arduino IDE and necessary libraries.
