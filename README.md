@@ -51,7 +51,3 @@ It is important to highlight that it is not possible to view the temperature dir
 
 This project is dedicated to the public domain under the [CC0 License](https://creativecommons.org/publicdomain/zero/1.0/).
 
-## Contact
-
-- Email: matheuspestana@outlook.com.br
-- Reddit: [---](https://www.reddit.com/user/---/)
