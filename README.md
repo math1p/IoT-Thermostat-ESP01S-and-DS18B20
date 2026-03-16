@@ -1,15 +1,15 @@
 # Thermostat with ESP8266 and DS18B20    [![Download](https://img.shields.io/badge/Download-brightgreen.svg)](https://github.com/math1p/Temperature-Humidity-ESP-DS18B20/archive/main.zip)
 
-### Project under development
-
 ![Thermostat Image](https://github.com/math1p/Blynk-IoT-Thermostat-ESP12-and-DS18B20/blob/main/assets/IMG_20240325_0003.jpg)
 
+> [!WARNING]
+> There is an error in the image. The VDD and GND pins of the DS18B20 are reversed.
 
 #### In Rio de Janeiro, temperatures can exceed 35°C on some days. As my house gets very hot, I decided to create a project to monitor the temperature at any time, even away from home.
 
 ## Prerequisites
 
-- ESP01, ESP12 or other ESP8266 controller ([ESP01/01S](https://github.com/esp8266/esp8266-wiki/wiki/Hardware_versions)) with GPIO16 connected to RST. Make sure you have the ESP8266 board add-on installed.
+- ESP8266 (ESP12 or [ESP01/01S](https://github.com/esp8266/esp8266-wiki/wiki/Hardware_versions) with GPIO16 connected to RST. Make sure you have the ESP8266 board add-on installed.
 - Temperature Sensor [DS18B20 (Dallas)](https://pdf1.alldatasheet.com/datasheet-pdf/view/227472/DALLAS/DS18B20.html).
 - ~3.3V power supply.
 - Arduino IDE and necessary libraries.
@@ -40,14 +40,6 @@
 It is important to highlight that it is not possible to view the temperature directly, requiring a previously configured WiFi connection so that the ESP8266-01S can communicate with the Blynk server. For a project with a similar objective that does not require an internet connection, I suggest using a microcontroller like the ATtiny85 and a display (TM1637).
 
 > [!NOTE]
-> I won't provide information about Blynk configuration, but I can tell you that you should use Datastreams and Virtualpins. For example: Temperature; V0 (!!!)
+> I won't provide information about Blynk configuration, but I can tell you that you should use Datastreams and Virtualpins.
 > For information about Blynk, see [Blynk Documentation](https://docs.blynk.io/en).
-
-## Future updates
-- ESP.deepSleep function. (!!!) (gpio16 -> rst)
-- WiFi manager: https://randomnerdtutorials.com/esp8266-nodemcu-wi-fi-manager-asyncwebserver/ (step 2/3)
-
-## License
-
-This project is dedicated to the public domain under the [CC0 License](https://creativecommons.org/publicdomain/zero/1.0/).
 
